@@ -1,1 +1,3 @@
- **funcs.dotproduct(v1,v2)**: computes the dotproduct of two given 2D Vectors.
+ **funcs.dotproduct(v1,v2):** computes the dotproduct of two given 2D Vectors.
+ 
+ **funcs.thddotproduct(v1: ThDVector, v2: ThDVector):** computes the dotproduct of two given 3D Vectors.
