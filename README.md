@@ -1,4 +1,4 @@
-## *'Tetrahedron'* is module designed to carry out vector operations.
+## *'Banneker'* is module designed to carry out vector operations.
 ### The syntax for the program is provided in the accompanying file, *'commands.md,'* which is available in the repo.
 
 **Current Functionality:**
