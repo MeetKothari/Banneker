@@ -1,4 +1,4 @@
-###'Tetrahedron' is module designed to carry out vector operations.
+### 'Tetrahedron' is module designed to carry out vector operations.
 
 **Current Functionality:**
 
