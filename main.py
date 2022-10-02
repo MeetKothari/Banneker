@@ -24,6 +24,14 @@ class funcs:
         scalar = xcoord + ycoord
         print("The scalar resulting from the Dot Product of the given vectors is: " + str(scalar))
     
+    def thddotproduct(v1: ThDVector, v2: ThDVector):
+        xcoord = v1.xcoord * v2.xcoord
+        ycoord = v1.ycoord * v2.ycoord
+        zcoord = v1.zcoord * v2.zcoord
+        scalar = xcoord + ycoord + zcoord
+        print("The scalar resulting from the Dot Product of the given vectors is: " + str(scalar))
+        
+    
 
 
 
@@ -38,3 +46,8 @@ if __name__ == '__main__':
     
     v4 = ThDVector(1,2,3)
     v4.print()
+    
+    v5 = ThDVector(4, 5, 6)
+    v5.print()
+    
+    funcs.thddotproduct(v4, v5)
