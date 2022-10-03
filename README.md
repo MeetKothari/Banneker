@@ -10,5 +10,8 @@
 - Vector Plotting.
 - Plotting operations.
 
+**Future Functionality (hopefull):**
+- Plotting multiple vectors.
+- Plotting multiple operations on the same grid.
 
 [^1]: Copyright [2022] Meet Kothari
