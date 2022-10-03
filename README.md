@@ -12,7 +12,7 @@
 - Vector Plotting.
 - Plotting operations.
 
-**Future Functionality (hopefull):**
+**Future Functionality (hopefully):**
 - Plotting multiple vectors.
 - Plotting multiple operations on the same grid.
 
