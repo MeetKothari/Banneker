@@ -5,6 +5,7 @@
 
 - Represents 2D and 3D Vectors.
 - Full Dot Product capabilities.
+- Plotting 2D vectors.
 
 **WIP Functionality:**
 - Vector Plotting.
