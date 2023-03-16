@@ -72,6 +72,18 @@ class ThDVector(Vector):
         super().__mul__(x)
         self.zcoord = self.zcoord * x
         return f"<{self.xcoord}, {self.ycoord}, {self.zcoord}>"
+    
+    def dot_product(self, other):
+        xcoord = self.xcoord * other.xcoord
+        ycoord = self.ycoord * other.ycoord
+        zcoord = self.zcoord * other.zcoord
+        return xcoord + ycoord + zcoord
+
+    def cross_product(self, other):
+        x = self.ycoord * other.zcoord - self.zcoord * other.ycoord
+        y = self.zcoord * other.xcoord - self.xcoord * other.zcoord
+        z = self.xcoord * other.ycoord - self.ycoord * other.xcoord
+        return ThDVector(x, y, z)
 
 
 class funcs:
